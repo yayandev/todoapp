@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+  background-color: skyblue;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.add-note {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-note input {
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.add-note button {
+  width: 20%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: green;
+  border: none;
+  color: white;
+}
+
+.show-note {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-top: 15px;
+  box-shadow: 0px 0px 10px 0px grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-try {
+  padding: 5px;
+  border: none;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.btn-delete {
+  padding: 5px;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+}
+
+.btn-check {
+  padding: 5px;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
